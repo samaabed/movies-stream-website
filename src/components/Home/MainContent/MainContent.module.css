@@ -1,0 +1,147 @@
+/* .container{
+    width: 70%;
+    margin: auto;
+} */
+
+.upperRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.leftImage, .rightImage{
+    background-color: wheat;
+    border-radius: 10px;
+    background-color: #cccccc;
+    height: 15rem;
+    background-size: cover;
+    cursor: pointer;
+    /* to align the image text relative to the image */
+    position: relative; 
+}
+
+.leftImage{
+    flex: 2;
+    margin-right: 60px;
+    background-image: url('../../../assets/images/squid_game.jpg');
+    background-position: top;
+}
+
+.rightImage{
+    flex: 1;
+    background-image: url('../../../assets/images/catching_killers.jpg');
+    background-position: center;
+}
+
+.imageText{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.imageText p:nth-of-type(1){
+   font-size: 24px;
+   text-transform: capitalize;
+}
+
+.imageText p:nth-of-type(2){
+    font-size: 18px;
+}
+
+.imageRating, .imageTrend{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.imageRating i {
+    padding-right: 4px;
+}
+
+.imageTrend{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 4px 6px;
+    color: #000;
+}
+
+.imageTrend p {
+    padding-right: 6px;
+    font-weight: 600;
+}
+
+.imageTrend i{
+   color: var(--orangeColor);
+}
+
+.bottomRow{
+    display: flex;
+    margin-top: 50px;
+    height: 20rem;
+    margin-bottom: 50px;
+}
+
+.continueWatching {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.continueWatchingTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 20%;
+}
+
+.continueWatchingTitle p {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.continueWatchingTitle span{
+    font-weight: 100;
+}
+
+.continueWatchingTitle  button {
+    color: var(--orangeColor);
+    padding: 5px;
+    border: 2px solid #00000080;
+    background-color: var(--secondaryBlackColor);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.imagesContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.image {
+    width: 45%;
+    background-color: #fff;
+    background-image: url('../../../assets/images/shrik.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8%;
+}
+
+.sideImage {
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+    background-size: cover;
+    background-image: url('../../../assets/images/walking_dead.jpg');
+    border-radius: 8%;
+    margin-top: 20px;
+
+}

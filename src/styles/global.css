@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --orangeColor: #ffa41c;
+  --backgroundColor:  #181715;
+  --secondaryBlackColor: #151515;
+  --lightBlack: #1E1E1E;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --light-text-color: #181715;
+  --light-bg-color: white;
+  --dark-text-color: white;
+  --dark-bg-color: #181715;
+}
+
+:root .light { 
+  color: var(--light-text-color) !important; 
+  background: var(--light-bg-color) !important;
+}
+
+
+
+
